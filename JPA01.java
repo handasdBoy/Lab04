@@ -14,7 +14,7 @@ public class JPA01{
                 m+=a[i];
             }
         }
-        double b = m/n*1.0;
+        double b = m/(n*1.0);
         System.out.printf("陣列中大於60的有%d個",n);
         System.out.print("\n");
         System.out.println("總合為"+m);

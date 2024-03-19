@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class JPA01{
+public class JPA402{
     public static void main(String[] args){
         System.out.print("請輸入學生人數:");
         Scanner s = new Scanner(System.in);
@@ -12,8 +12,9 @@ public class JPA01{
             b[i] = s.nextDouble();
             c=c+b[i];
         }
+        double d = (double)c/a;
         System.out.println("人數:"+a);
         System.out.printf("總分:"+c);
-        System.out.printf("\n平均:%.6f",(c/a)*1.0);
+        System.out.printf("\n平均:"+d);
     }
 }
